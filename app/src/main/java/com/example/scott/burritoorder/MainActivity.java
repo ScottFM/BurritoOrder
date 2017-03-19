@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnAddBurrito:
                 if (numBurritoes < 4) {
                     Intent I = new Intent("com.example.Scott.burritoorder.ChooseMeat");
-                    finish();
+                    //finish();
                     startActivity(I);
                 }
                 break;

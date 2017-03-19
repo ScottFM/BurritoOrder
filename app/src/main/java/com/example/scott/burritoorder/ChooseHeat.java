@@ -81,7 +81,7 @@ public class ChooseHeat extends AppCompatActivity implements View.OnClickListene
         editorHeat.commit();
 
         Intent I = new Intent("com.example.Scott.burritoorder.ChooseFixins");
-        finish();
+        //finish();
         startActivity(I);
     }
 }
